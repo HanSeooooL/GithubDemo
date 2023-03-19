@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4FE564729C7437D00218F84 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4FE564629C7437D00218F84 /* main.c */; };
+		A4FE565229C745A700218F84 /* Secondpage.c in Sources */ = {isa = PBXBuildFile; fileRef = A4FE565129C745A700218F84 /* Secondpage.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A4FE564329C7437D00218F84 /* GithubDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GithubDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FE564629C7437D00218F84 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A4FE565029C745A700218F84 /* Secondpage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secondpage.h; sourceTree = "<group>"; };
+		A4FE565129C745A700218F84 /* Secondpage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Secondpage.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A4FE564629C7437D00218F84 /* main.c */,
+				A4FE565029C745A700218F84 /* Secondpage.h */,
+				A4FE565129C745A700218F84 /* Secondpage.c */,
 			);
 			path = GithubDemo;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FE565229C745A700218F84 /* Secondpage.c in Sources */,
 				A4FE564729C7437D00218F84 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
